@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="highscores 2.0, the official Cold Community player leaderboards.">
-    <meta name="author" content="Onyxeon">
+    <meta name="author" content="Moxx">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
