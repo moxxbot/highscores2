@@ -1,0 +1,29 @@
+Create user: highscores2_admin
+Pass: [you set this, ideally 32 or more characters - Aa1!]
+
+
+Create Highscores2 database...
+I provided a sample_db for data/structure testing (You will have to rename it to highscores2).
+
+
+
+Attach user highscores2_admin to Highscores2 database:
+Access: highscores2_admin - With ADMIN - All privilege's.
+
+
+Attach user highscores2_admin to CoLD_RP database.
+Access: highscores2_admin - With READ.
+This profile does NOT need all tables.
+Read - bluerp_deathmatching
+Read - bluerp_dmstats
+Read - bluerp_player
+
+
+4. Import the current cs_elo_seasons data to highscores2_seasons
+
+5. Run table_setup.php
+- This file will create the tables needed for highscores.
+
+6. Add database_updater.php to a cronjob with a cycle of every 5 minutes or w/e time you want.
+
+7. Add Highscores2_admin information to connect.php in web/.
